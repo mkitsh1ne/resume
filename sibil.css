@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    }
+    
+    
+    .resume-card{
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    header{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    #profile-photo{
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+    
+    section{
+        padding: 25px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    footer{
+        text-align: center;
+    }
+    button{
+        padding: 10px 15px;
+        background: #000;
+        color: #fff;
+        border-radius: 40px;
+        cursor: pointer;    
+    }
+    .dark-mode {
+        background-color: #333;
+        color: #fff;
+    }
+    .dark-mode .resume-card {
+        background-color: #444;
+        color: #fff;
+    }
+    
+    .dark-mode section {
+        background-color: #555;
+        color: #fff;
+    }
+    .dark-mode button {
+        background-color: #fff;
+        color: #000;
+    
+    }
+    .dark-mode footer {
+        color:#ccc;
+    
+    }
